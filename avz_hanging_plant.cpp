@@ -375,11 +375,6 @@ namespace AvZ
                 return;
             }
 
-            std::string info_first_part = "一切已准备就绪, 设定位置: (#, #), 设定依次种植卡槽: (";
-            std::string array = getArrayString();
-            std::string info_second_part = ")";
-            std::string info_third_part = ", 等待篮球砸花盆. \n若想修改卡槽请按 #. 若想修改位置请按 #";
-            std::string info_fourth_part = ".";
             std::string infoStr;
             if (is_using_default_key_bind)
             {
